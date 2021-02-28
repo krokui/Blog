@@ -1,0 +1,401 @@
+2021-01-03 10:07:27.141  INFO 13712 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 13712 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 10:07:27.145  INFO 13712 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 10:07:27.176  INFO 13712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 10:07:27.176  INFO 13712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 10:07:27.640  INFO 13712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-03 10:07:27.698  INFO 13712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.
+2021-01-03 10:07:28.244  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 10:07:28.281  INFO 13712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 10:07:28.282  INFO 13712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-01-03 10:07:28.348  INFO 13712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 10:07:28.348  INFO 13712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1171 ms
+2021-01-03 10:07:28.459  INFO 13712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 10:07:28.492  INFO 13712 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-03 10:07:28.523  INFO 13712 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-01-03 10:07:28.599  WARN 13712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-03 10:07:28.604  INFO 13712 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-03 10:07:28.678  INFO 13712 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-03 10:07:28.800  INFO 13712 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-03 10:07:28.813  INFO 13712 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-01-03 10:07:28.853  INFO 13712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-03 10:07:29.123  INFO 13712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 10:07:29.154  INFO 13712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 10:07:29.156  INFO 13712 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-03 10:07:29.448  INFO 13712 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-03 10:07:29.454  INFO 13712 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 10:07:29.985  INFO 13712 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-03 10:07:29.993  INFO 13712 --- [restartedMain] com.huangxin.BlogApplication             : Started BlogApplication in 3.204 seconds (JVM running for 3.825)
+2021-01-03 10:07:36.982  INFO 13712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 10:07:36.982  INFO 13712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 10:07:36.983  INFO 13712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-03 10:07:37.079  WARN 13712 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-03 10:07:37.089  WARN 13712 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-03 10:48:12.968  INFO 7564 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 7564 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 10:48:12.970  INFO 7564 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 10:48:13.000  INFO 7564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 10:48:13.000  INFO 7564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 10:48:13.458  INFO 7564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-03 10:48:13.515  INFO 7564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.
+2021-01-03 10:48:14.049  INFO 7564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 10:48:14.056  INFO 7564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 10:48:14.056  INFO 7564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-01-03 10:48:14.156  INFO 7564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 10:48:14.156  INFO 7564 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1156 ms
+2021-01-03 10:48:14.258  INFO 7564 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 10:48:14.291  INFO 7564 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-03 10:48:14.323  INFO 7564 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-01-03 10:48:14.397  WARN 7564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-03 10:48:14.403  INFO 7564 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-03 10:48:14.475  INFO 7564 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-03 10:48:14.581  INFO 7564 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-03 10:48:14.594  INFO 7564 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-01-03 10:48:14.646  INFO 7564 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-03 10:48:14.909  INFO 7564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 10:48:14.941  INFO 7564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 10:48:14.943  INFO 7564 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-03 10:48:15.226  INFO 7564 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-03 10:48:15.232  INFO 7564 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 10:48:15.762  INFO 7564 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-03 10:48:15.769  INFO 7564 --- [restartedMain] com.huangxin.BlogApplication             : Started BlogApplication in 3.118 seconds (JVM running for 3.719)
+2021-01-03 10:48:23.933  INFO 7564 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 10:48:23.933  INFO 7564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 10:48:23.934  INFO 7564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-03 10:48:24.026  WARN 7564 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-03 10:48:24.036  WARN 7564 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-03 11:04:50.855  INFO 4140 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 4140 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:04:50.858  INFO 4140 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:04:50.886  INFO 4140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 11:04:50.886  INFO 4140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 11:04:50.998  WARN 4140 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.huangxin.BlogApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+2021-01-03 11:04:51.095 ERROR 4140 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.huangxin.BlogApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:336)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:252)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:285)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:99)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:569)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.huangxin.BlogApplication.main(BlogApplication.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	... 19 common frames omitted
+
+2021-01-03 11:09:13.884  INFO 13120 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 13120 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:09:13.886  INFO 13120 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:09:13.916  INFO 13120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 11:09:13.916  INFO 13120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 11:09:14.031  WARN 13120 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.huangxin.BlogApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+2021-01-03 11:09:14.124 ERROR 13120 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.huangxin.BlogApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:336)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:252)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:285)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:99)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:569)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.huangxin.BlogApplication.main(BlogApplication.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	... 19 common frames omitted
+
+2021-01-03 11:22:46.922  INFO 13400 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 13400 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:22:46.924  INFO 13400 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:22:46.954  INFO 13400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 11:22:46.955  INFO 13400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 11:22:47.075  WARN 13400 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.huangxin.BlogApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+2021-01-03 11:22:47.175 ERROR 13400 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.huangxin.BlogApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:336)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:252)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:285)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:99)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:569)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.huangxin.BlogApplication.main(BlogApplication.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	... 19 common frames omitted
+
+2021-01-03 11:23:24.832  INFO 1100 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 1100 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:23:24.834  INFO 1100 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:23:24.862  INFO 1100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 11:23:24.863  INFO 1100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 11:23:25.342  INFO 1100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-03 11:23:25.398  INFO 1100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 5 JPA repository interfaces.
+2021-01-03 11:23:25.928  INFO 1100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 11:23:25.935  INFO 1100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 11:23:25.935  INFO 1100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-01-03 11:23:26.034  INFO 1100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 11:23:26.034  INFO 1100 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1171 ms
+2021-01-03 11:23:26.137  INFO 1100 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 11:23:26.169  INFO 1100 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-03 11:23:26.199  INFO 1100 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-01-03 11:23:26.272  WARN 1100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-03 11:23:26.277  INFO 1100 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-03 11:23:26.349  INFO 1100 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-03 11:23:26.450  INFO 1100 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-03 11:23:26.462  INFO 1100 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-01-03 11:23:26.513  INFO 1100 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-03 11:23:26.771  INFO 1100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 11:23:26.803  INFO 1100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 11:23:26.805  INFO 1100 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-03 11:23:27.065  INFO 1100 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-03 11:23:27.070  INFO 1100 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 11:23:27.591  INFO 1100 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-03 11:23:27.598  INFO 1100 --- [restartedMain] com.huangxin.BlogApplication             : Started BlogApplication in 3.1 seconds (JVM running for 3.646)
+2021-01-03 11:23:29.977  INFO 1100 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 11:23:29.978  INFO 1100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 11:23:29.979  INFO 1100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-03 11:26:50.177  INFO 5300 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 5300 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:26:50.178  INFO 5300 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:26:50.208  INFO 5300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 11:26:50.208  INFO 5300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 11:26:50.669  INFO 5300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-03 11:26:50.731  INFO 5300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 5 JPA repository interfaces.
+2021-01-03 11:26:51.259  INFO 5300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 11:26:51.296  INFO 5300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 11:26:51.297  INFO 5300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-01-03 11:26:51.364  INFO 5300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 11:26:51.364  INFO 5300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
+2021-01-03 11:26:51.468  INFO 5300 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 11:26:51.502  INFO 5300 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-03 11:26:51.534  INFO 5300 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-01-03 11:26:51.609  WARN 5300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-03 11:26:51.614  INFO 5300 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-03 11:26:51.685  INFO 5300 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-03 11:26:51.786  INFO 5300 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-03 11:26:51.798  INFO 5300 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-01-03 11:26:51.854  INFO 5300 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-03 11:26:52.117  INFO 5300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 11:26:52.151  INFO 5300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 11:26:52.153  INFO 5300 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-03 11:26:52.406  INFO 5300 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-03 11:26:52.413  INFO 5300 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 11:26:53.006  INFO 5300 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-03 11:26:53.014  INFO 5300 --- [restartedMain] com.huangxin.BlogApplication             : Started BlogApplication in 3.155 seconds (JVM running for 3.708)
+2021-01-03 11:26:56.706  INFO 5300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 11:26:56.706  INFO 5300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 11:26:56.707  INFO 5300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-03 11:27:07.041  WARN 5300 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-03 11:27:07.050  WARN 5300 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-03 11:28:14.012  INFO 13488 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 13488 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:28:14.015  INFO 13488 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:28:14.043  INFO 13488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 11:28:14.043  INFO 13488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 11:28:14.154  WARN 13488 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.huangxin.BlogApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+2021-01-03 11:28:14.251 ERROR 13488 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.huangxin.BlogApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:336)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:252)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:285)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:99)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:569)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.huangxin.BlogApplication.main(BlogApplication.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'loginController' for bean class [com.huangxin.web.admin.LoginController] conflicts with existing, non-compatible bean definition of same name and class [com.huangxin.web.LoginController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	... 19 common frames omitted
+
+2021-01-03 11:30:27.102  INFO 12688 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 12688 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:30:27.103  INFO 12688 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:30:27.133  INFO 12688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 11:30:27.134  INFO 12688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 11:30:27.598  INFO 12688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-03 11:30:27.657  INFO 12688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+2021-01-03 11:30:28.197  INFO 12688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 11:30:28.204  INFO 12688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 11:30:28.204  INFO 12688 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-01-03 11:30:28.304  INFO 12688 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 11:30:28.304  INFO 12688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1170 ms
+2021-01-03 11:30:28.408  INFO 12688 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 11:30:28.441  INFO 12688 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-03 11:30:28.471  INFO 12688 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-01-03 11:30:28.548  WARN 12688 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-03 11:30:28.551  INFO 12688 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-03 11:30:28.622  INFO 12688 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-03 11:30:28.724  INFO 12688 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-03 11:30:28.736  INFO 12688 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-01-03 11:30:28.799  INFO 12688 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-03 11:30:29.062  INFO 12688 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 11:30:29.094  INFO 12688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 11:30:29.096  INFO 12688 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-03 11:30:29.319  INFO 12688 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-03 11:30:29.325  INFO 12688 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 11:30:29.874  INFO 12688 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-03 11:30:29.882  INFO 12688 --- [restartedMain] com.huangxin.BlogApplication             : Started BlogApplication in 3.095 seconds (JVM running for 3.646)
+2021-01-03 11:30:31.835  INFO 12688 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 11:30:31.835  INFO 12688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 11:30:31.836  INFO 12688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-03 11:30:31.928  WARN 12688 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-03 11:30:31.938  WARN 12688 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-03 11:40:39.609  INFO 3576 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 3576 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:40:39.610  INFO 3576 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:40:39.638  INFO 3576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-03 11:40:39.639  INFO 3576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-03 11:40:40.090  INFO 3576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-03 11:40:40.148  INFO 3576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+2021-01-03 11:40:40.684  INFO 3576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 11:40:40.690  INFO 3576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 11:40:40.691  INFO 3576 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-01-03 11:40:40.788  INFO 3576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 11:40:40.789  INFO 3576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1150 ms
+2021-01-03 11:40:40.889  INFO 3576 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 11:40:40.922  INFO 3576 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-03 11:40:40.951  INFO 3576 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-01-03 11:40:41.025  WARN 3576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-03 11:40:41.029  INFO 3576 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-03 11:40:41.100  INFO 3576 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-03 11:40:41.201  INFO 3576 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-03 11:40:41.213  INFO 3576 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-01-03 11:40:41.264  INFO 3576 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-03 11:40:41.518  INFO 3576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 11:40:41.550  INFO 3576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 11:40:41.552  INFO 3576 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-03 11:40:41.793  INFO 3576 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-03 11:40:41.798  INFO 3576 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 11:40:42.340  INFO 3576 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-03 11:40:42.347  INFO 3576 --- [restartedMain] com.huangxin.BlogApplication             : Started BlogApplication in 3.045 seconds (JVM running for 3.582)
+2021-01-03 11:40:50.784  INFO 3576 --- [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 11:40:50.785  INFO 3576 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 11:40:50.785  INFO 3576 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-03 11:41:13.202  INFO 3576 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 11:41:13.203  INFO 3576 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 11:41:13.204  INFO 3576 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-03 11:41:13.208  INFO 3576 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-03 11:41:13.352  INFO 3576 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 3576 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:41:13.352  INFO 3576 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:41:13.492  INFO 3576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-03 11:41:13.514  INFO 3576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 5 JPA repository interfaces.
+2021-01-03 11:41:13.635  INFO 3576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 11:41:13.635  INFO 3576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 11:41:13.635  INFO 3576 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-01-03 11:41:13.647  INFO 3576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 11:41:13.647  INFO 3576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 293 ms
+2021-01-03 11:41:13.694  INFO 3576 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 11:41:13.705  INFO 3576 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-03 11:41:13.709  INFO 3576 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-01-03 11:41:13.711  INFO 3576 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-01-03 11:41:13.712  INFO 3576 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-01-03 11:41:13.776  WARN 3576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-03 11:41:13.863  INFO 3576 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-03 11:41:13.863  INFO 3576 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 11:41:13.946  INFO 3576 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 11:41:13.949  INFO 3576 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-03 11:41:14.087  INFO 3576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 11:41:14.087  INFO 3576 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-03 11:41:14.360  INFO 3576 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-03 11:41:14.363  INFO 3576 --- [restartedMain] com.huangxin.BlogApplication             : Started BlogApplication in 1.038 seconds (JVM running for 35.598)
+2021-01-03 11:41:14.364  INFO 3576 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-03 11:41:15.678  INFO 3576 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 11:41:15.679  INFO 3576 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-03 11:41:15.679  INFO 3576 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-01-03 11:41:15.682  INFO 3576 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-01-03 11:41:15.815  INFO 3576 --- [restartedMain] com.huangxin.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-SKG26CN with PID 3576 (D:\毕业设计\huangxin_blog\target\classes started by huangXin in D:\毕业设计\huangxin_blog)
+2021-01-03 11:41:15.815  INFO 3576 --- [restartedMain] com.huangxin.BlogApplication             : The following profiles are active: dev
+2021-01-03 11:41:15.943  INFO 3576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-01-03 11:41:15.964  INFO 3576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 5 JPA repository interfaces.
+2021-01-03 11:41:16.066  INFO 3576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-03 11:41:16.066  INFO 3576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-03 11:41:16.066  INFO 3576 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-01-03 11:41:16.079  INFO 3576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-03 11:41:16.079  INFO 3576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 262 ms
+2021-01-03 11:41:16.124  INFO 3576 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-03 11:41:16.135  INFO 3576 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-03 11:41:16.138  INFO 3576 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-01-03 11:41:16.140  INFO 3576 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-01-03 11:41:16.140  INFO 3576 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-01-03 11:41:16.202  WARN 3576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-03 11:41:16.285  INFO 3576 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-03 11:41:16.286  INFO 3576 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-03 11:41:16.354  INFO 3576 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-03 11:41:16.359  INFO 3576 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-03 11:41:16.489  INFO 3576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-03 11:41:16.489  INFO 3576 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-01-03 11:41:16.772  INFO 3576 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-01-03 11:41:16.775  INFO 3576 --- [restartedMain] com.huangxin.BlogApplication             : Started BlogApplication in 0.982 seconds (JVM running for 38.009)
+2021-01-03 11:41:16.775  INFO 3576 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-03 11:42:01.119  INFO 3576 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 11:42:01.119  INFO 3576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-03 11:42:01.119  INFO 3576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-03 11:42:01.197  WARN 3576 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-03 11:42:01.206  WARN 3576 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
